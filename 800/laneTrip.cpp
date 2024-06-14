@@ -5,7 +5,7 @@ int main()
 {
     int t;
     cin >> t;
-    while (t--)
+    while (t)
     {
         int n, x;
         cin >> n >> x;
@@ -23,5 +23,6 @@ int main()
         }
         m = max(m, 2 * (x - v[n - 1]));
         cout << m << endl;
+        t--;
     }
 }

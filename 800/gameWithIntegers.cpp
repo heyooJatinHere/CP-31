@@ -5,7 +5,7 @@ int main()
 {
     int t;
     cin>>t;
-    while(t--)
+    while(t)
     {
         int num;
         cin>>num;
@@ -15,5 +15,6 @@ int main()
         }else{
             cout<<"First"<<endl;
         }
+        t--;
     }
 }
